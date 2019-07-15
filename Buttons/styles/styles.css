@@ -1,0 +1,15 @@
+.marcador {
+    background: #FE9D9D;
+    border: 1px solid #F94646;
+}
+
+.marcador2 {
+    background: #5BF946;
+    border: 1px solid #36AE26;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    maring: 40px 0 20px;
+    border-bottom: 1px solid #000000;
+}
