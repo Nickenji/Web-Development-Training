@@ -1,0 +1,120 @@
+/*================== font ====================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/*================== navbar ====================*/
+.transparent {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.centered {
+    width: 90px;
+}
+
+.icon, .name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.transition {
+    transition: background 0.5s, color 0.2s;
+}
+
+.navbar-dark .nav-item .nav-link:link {
+    color: #FFF;
+}
+;
+.navbar-dark .nav-item .nav-link:visited {
+    color: #FFF;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color: #1ED760;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .nav-item .nav-link:focus {
+    color: #1ED760;
+}
+
+.navbar-dark .nav-item .nav-link:active {
+    color:#64F87F;
+}
+
+/*================== parallax background ====================*/
+html, body {
+    height: 100%;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+    background: url(../images/background.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.parallax2 {
+    background: url(../images/background2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================== resume ====================*/
+.bg-purple {
+    padding: 30px;
+    background: rgba(97, 68, 208, 0.9);
+}
+
+.marcador {
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.divider {
+    padding: 10px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
