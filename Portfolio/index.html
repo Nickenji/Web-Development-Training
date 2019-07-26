@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-us">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -37,28 +38,28 @@
         <ul class="navbar-nav mx-auto">
 
           <li class="nav-item centered">
-            <a class="nav-link transition" href="#">
+            <a class="nav-link transition" href="#home">
               <div class="icon"><i class="fa fa-home"></i></div>
               <div class="name" data-text="Home">Home</div>
             </a>
           </li>
 
           <li class="nav-item centered">
-            <a class="nav-link transition" href="#">
+            <a class="nav-link transition" href="#resume">
               <div class="icon"><i class="fa fa-file-text-o"></i></div>
               <div class="name" data-text="Resume">Resume</div>
             </a>
           </li>
 
           <li class="nav-item centered">
-            <a class="nav-link transition" href="#">
+            <a class="nav-link transition" href="#projects">
               <div class="icon"><i class="fa fa-briefcase"></i></div>
               <div class="name" data-text="Projects">Projects</div>
             </a>
           </li>
 
           <li class="nav-item centered">
-            <a class="nav-link transition" href="#">
+            <a class="nav-link transition" href="#contact">
               <div class="icon"><i class="fa fa-envelope"></i></div>
               <div class="name" data-text="Contact">Contact</div>
             </a>
@@ -69,20 +70,20 @@
     </div>
   </nav>
 
-  <!-- parallax background-->
-  <div class="parallax">
+  <!-- header with parallax background-->
+  <header class="parallax" id="home">
     <div class="parallax-text">
       <h1>Hello! I'm Nicolas,</h1>
       <h2>Student at University of São Paulo</h2>
       <h3>Trying to be a Web Developer</h3>
     </div>
-  </div>
+  </header>
 
   <!-- resume -->
-  <section class="bg-purple">
+  <article class="bg-purple" id="resume">
     <div class="container">
 
-      <div class="row">
+      <section class="row">
         <div class="col-md-12">
           <h2>Who am i?</h2>
           <p>
@@ -94,10 +95,10 @@
           </p>
         </div>
 
-      </div>
+      </section>
 
-      <div class="row divider">
-        <div class="col-md-9 divider2"">
+      <section class="row divider-top">
+        <div class="col-md-9 divider-right"">
           <h2 class=" center"><i class="fa fa-file-text-o"></i></h2>
           <h3 class="center">Education</h3>
           <p>[2017 - 2021] - Bachelor's in Information Systems - University of São Paulo (USP)</p>
@@ -152,13 +153,9 @@
             </li>
 
           </ul>
-
-          <h3 class="center"><span style="text-decoration: line-through">Programming</span> Languages</h3>
-          <p class="center">Portuguese | English | Japanese | Spanish | Korean
-          </p>
         </div>
 
-        <div class="col-md-3">
+        <aside class="col-md-3">
           <h2 class="center"><i class="fa fa-code"></i></h2>
           <ul class="list-unstyled center">
             <li>
@@ -177,13 +174,34 @@
               <h4>Javascript</h4>
             </li>
           </ul>
-        </div>
-      </div>
+
+          <br>
+
+          <h2 class="center"><i class="fa fa-language"></i></h2>
+          <ul class="list-unstyled center">
+            <li>
+              <h4>Portuguese</h4>
+            </li>
+            <li>
+              <h4>English</h4>
+            </li>
+            <li>
+              <h4>Japanese</h4>
+            </li>
+            <li>
+              <h4>Spanish</h4>
+            </li>
+            <li>
+              <h4>Korean</h4>
+            </li>
+          </ul>
+        </aside>
+      </section>
     </div>
-  </section>
+  </article>
 
   <!-- projects -->
-  <div class="parallax2">
+  <div class="parallax2" id="projects">
 
   </div>
 
@@ -199,4 +217,5 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
+
 </html>

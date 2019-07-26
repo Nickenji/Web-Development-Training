@@ -1,3 +1,13 @@
+/*================== general ====================*/
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
 /*================== font ====================*/
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -66,12 +76,6 @@ p {
 }
 
 /*================== parallax background ====================*/
-html, body {
-    height: 100%;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-}
-
 .parallax {
     background: url(../images/background.jpg);
     height: 100%;
@@ -114,12 +118,12 @@ html, body {
     text-align: center;
 }
 
-.divider {
+.divider-top {
     padding: 10px 0px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.divider2 {
+.divider-right {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
